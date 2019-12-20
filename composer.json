@@ -1,0 +1,11 @@
+  {
+    "name": "Ivanqi/SnowflakeIdWorker",
+    "require": {
+        "php": ">=7"
+    },
+    "autoload": {
+        "psr-4": {
+            "SnowflakeIdWorker\\": "src"
+        }
+    }
+}
