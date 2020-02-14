@@ -68,7 +68,7 @@ class IdWorker
     private static $self = NULL;
 
 
-    public function getInstance()
+    public static function getInstance()
     {
         if (self::$self == NULL) {
             self::$self = new self();
