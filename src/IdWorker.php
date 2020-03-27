@@ -68,10 +68,10 @@ class IdWorker
     private static $self = NULL;
 
 
-    public static function getInstance()
+    public static function getInstance($workId = 0, $datacenterId = 0)
     {
         if (self::$self == NULL) {
-            self::$self = new self();
+            self::$self = new self($workId, $datacenterId);
         }
 
         return self::$self;
